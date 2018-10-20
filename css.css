@@ -1,0 +1,17 @@
+article{width: 760px;margin: 0 auto;background-color: lightseagreen;padding: 50px}
+p span{float:left;
+    width:300px;color:beige}
+body{background-color: darkgray}
+
+h1{color: black;
+    font-size: 40px;}
+h2{color: #f9fdff;border-bottom:3px solid #f9fdff;}
+h3{color: lightyellow}
+article img{
+    width: 120px;height: 160px;
+    float:right;padding: 200px 0 0 0}
+
+@media all and (max-width: 640px){
+    article{width:100%;box-sizing: border-box}
+
+}
